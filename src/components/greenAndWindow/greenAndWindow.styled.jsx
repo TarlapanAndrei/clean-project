@@ -7,6 +7,7 @@ import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 export const GreenAndWindowContainer = styled.div`
    display: flex;
    width: 100%;
+   min-height: 25%;
    @media screen and (max-width: 450px){
     display: grid;
   }
@@ -34,6 +35,15 @@ export const GreenAndWindowImage = styled.div`
   @media screen and (max-width: 450px){
     width: 100%;
     background-size: cover;
+  }
+  @media screen and (max-width: 100px)and (-webkit-min-device-pixel-ratio:2){
+    background-image: url(${homePageMainWith500});
+  }
+  @media screen and (max-width: 800px)and (-webkit-min-device-pixel-ratio:2){
+    background-image: url(${homePageMainWith400});
+  }
+  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
+    background-image: url(${homePageMainWith400});
   }
   @media screen and (max-width: 414px)and (-webkit-min-device-pixel-ratio:2){
     height: 414px;
@@ -96,13 +106,13 @@ export const Hdiv = styled.div`
         font-size: 25px;
       }
     }
-    @media screen and (max-width: 666px){
+    @media screen and (max-width: 667px){
       margin-left: 18px;
       h1{
-        font-size: 21px;
+        font-size: 20px;
       }
     }
-    @media screen and (max-width: 639px){
+    @media screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio:2) {
       h1{
         font-size: 19px;
       }
@@ -117,13 +127,13 @@ export const Hdiv = styled.div`
      font-size: 35px;
 }
 }
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2){
       h1{
      
       font-size: 35px;
     }
   }
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 375px) {
     h1{
     font-size: 30px;
   }
@@ -138,21 +148,21 @@ export const Pdiv = styled.div`
     margin-right: 20px;
     font-size: 20px;
   }
-  @media screen and (orientation : portrait) and (max-width: 1024px){
+  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2){
     font-size: 22px;
   }
-  @media screen and (max-width: 812px){
+  @media screen and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2) {
     font-size: 20px;
   }
-  @media screen and (max-width: 666px){
+  @media screen and (max-width: 667px){
     font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  @media screen and (max-width: 639px){
+  @media screen and (max-width: 639px) and (-webkit-min-device-pixel-ratio:2){
     font-size: 16px;
   }
-  @media screen and (max-width: 414px){
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
     margin-left: 30px;
     margin-right: 25px;
     font-size: 22px;
@@ -173,7 +183,7 @@ export const ButtonDiv = styled.div`
     width: 36%;
     height: 9%;
   }
-  @media screen and (orientation : portrait) and (max-width: 1024px){
+  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2){
     width: 42%;
     height: 11%;
   }
@@ -184,25 +194,36 @@ export const ButtonDiv = styled.div`
   @media screen and (max-width: 879px){
     width: 49%;
   }
-  @media screen and (max-width: 812px){
+  @media screen and (max-width: 823px) and (-webkit-min-device-pixel-ratio:2){
+    width: 54%;
+    margin: auto;
+  }
+  @media screen and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2){
     width: 54%;
   }
   @media screen and (max-width: 735px){
     width: 59%;
   }
+  @media screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio:2){
+    margin: auto;
+  }
   @media screen and (max-width: 666px){
     width: 65%;
   }
-  @media screen and (max-width: 639px){
+  @media screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio:2) {
     width: 69%;
+    margin: auto
   }
   @media screen and (max-width: 579px){
     width: 77%;
   }
-  @media screen and (max-width: 414px){
+  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
+    margin-top:0px;
+  }
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2) {
     width: 87%;
   }
-  @media screen and (max-width: 320px){
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2) {
     width: 87%;
     margin: auto;
   }
@@ -210,27 +231,31 @@ export const ButtonDiv = styled.div`
 export const ButtonText = styled.div`
   margin: 11px 20px;
   font-size: 23px;
-  @media screen and (max-width: 1365px){
+  @media screen and (max-width: 1365px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 7px 18px;
     font-size: 20px;
   }
   @media screen and (max-width: 1199px){
     font-size: 17px;
   }
-  @media screen and (orientation : portrait) and (max-width: 1024px){
+  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2) {
     font-size: 20px;
   }
-  @media screen and (max-width: 414px){
+  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
+    padding:auto;
+    margin: auto;
+  }
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 10px 75px;
     font-size: 25px;
   }
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 6px 55px;
   }
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 360px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 6px 55px;
   }
-  @media screen and (max-width: 320px){
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 6px 35px;
   }
 `;

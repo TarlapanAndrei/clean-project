@@ -1,10 +1,14 @@
 import React from 'react';
-
-import ro from '../../assets/ro.png'
+import {connect} from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+import { selectLanguage } from '../../redux/content/content.selectors';
+import { changeLangToRu, changeLangToRo } from '../../redux/content/content.actions';
+import ro from '../../assets/ro.png';
+import ru from '../../assets/ru.png';
 
 import { HeaderContainer, HeaderLogoDiv, HeaderPhoneDiv, HeaderLanguageChange, HeaderPhoneDivMedia, LitleScreenPhone, LitleScomeEveryPhone } from './header.styled';
 
-const Header = () =>(
+const Header = ({selectLanguage, changeLangToRu, changeLangToRo}) =>(
   <HeaderContainer>
     <HeaderLogoDiv>
       Furmetexlogo
@@ -16,16 +20,25 @@ const Header = () =>(
       +373(69)106 651
     </HeaderPhoneDivMedia>
     <LitleScreenPhone >
-      <LitleScomeEveryPhone>
+     <a href="tel:+373 (22)288 611"><LitleScomeEveryPhone>
        +373(22)288 611
-      </LitleScomeEveryPhone>
-      <LitleScomeEveryPhone>
+      </LitleScomeEveryPhone></a>
+      <a href="tel:+373 (69)106 651"><LitleScomeEveryPhone>
        +373(69)106 651
-      </LitleScomeEveryPhone>
+      </LitleScomeEveryPhone></a>
     </LitleScreenPhone>
     <HeaderLanguageChange>
-      <img src={ro} alt='russian' title='rus' />
+      { selectLanguage === 'romanian' ?
+        (<div onClick={changeLangToRu}><img src={ro} alt='romanian' title='rom' /></div>) :
+      (<div onClick={changeLangToRo}><img src={ru} alt='russian' title='rus' /></div>)}
       </HeaderLanguageChange>
   </HeaderContainer>
 )
-export default Header;
+const mapStateToProps = createStructuredSelector({
+  selectLanguage: selectLanguage
+})
+const mapDispatchToProps = dispatch =>({
+  changeLangToRu: ()=> dispatch(changeLangToRu()),
+  changeLangToRo: ()=> dispatch(changeLangToRo())
+})
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
