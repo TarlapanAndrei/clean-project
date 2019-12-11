@@ -107,24 +107,5 @@ export const HomepageContainer = styled.div`
     margin: 0 5px;
     background-color: blue;
   }
-  @media screen and (max-width: 414px){
-    max-width:414px;
-    height: 4280px;
-    margin: 0 5px;
-  }
-  @media screen and (max-width: 400px){
-    max-width:396px;
-    height: 2880px;
-    margin: 0 5px;
-  }
-  @media screen and (max-width: 375px){
-    max-width:375px;
-    height: 2880px;
-    margin: 0 5px;
-  }
-  @media screen and (max-width: 360px){
-    max-width:360px;
-    height: 2990px;
-    margin: 0 5px;
-  }
+
 `;

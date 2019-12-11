@@ -17,9 +17,16 @@ export const HeaderContainer = styled.div`
     font-size: 20px;
     border-bottom:1px solid #31945C;
   }
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 550px){
     font-size: 13px;
-    height: 50px;
+    height: 70px;
+  }
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
+    height: 70px;
+    font-size: 13px;
+  }
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
+    height: 80px;
   }
 `;
 export const HeaderLogoDiv = styled.div`
@@ -32,8 +39,22 @@ export const HeaderLogoDiv = styled.div`
   @media screen and (max-width: 600px){
     width: 40%;
     font-size: 14px;
-    padding: 5 5px;
+    padding: 5px 5px;
     margin-top: 3px;
+  }
+  @media screen and (max-width: 900px){
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 20px;
+  }
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
+    height: 70px;
+    font-size: 17px;
+  }
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 15px;
   }
 `;
 export const HeaderPhoneDiv = styled.div`
@@ -41,10 +62,8 @@ export const HeaderPhoneDiv = styled.div`
   justify-content: flex-end;
   padding-right:20px;
   width: 35%;
-  @media screen and (max-width: 850px){
-    width: 45%;
-    padding-right:0;
-
+  @media screen and (max-width: 900px){
+    display: none;
   }
 `;
 export const HeaderPhoneDivMedia = styled.div`
@@ -59,8 +78,30 @@ export const HeaderLanguageChange = styled.div`
   width: 15%;
   display: flex;
   justify-content: flex-end;
-  padding: 0 10px;
-  @media screen and (max-width: 600px){
-    padding: 0 5px;
+  padding-right: 15px;
+  @media screen and (max-width: 900px){
+    padding-right: 10px;
+  }
+  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
+    padding-right: 15px;
+  }
+`;
+export const LitleScreenPhone = styled.div`
+  width: 45%;
+  height:100%;
+  display:none;
+  @media screen and (max-width: 900px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+export const LitleScomeEveryPhone = styled.div`
+   padding: 5px 0;
+   @media screen and (max-width: 411px) and (-webkit-min-device-pixel-ratio:2){
+     font-size: 15px;
+   }
+   @media screen and (max-width: 350px) and (-webkit-min-device-pixel-ratio:2){
+    font-size: 12px;
   }
 `;
