@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import homePageMain from '../../assets/homePageMain.jpg';
+import homePageMain700 from '../../assets/homePageMain700.jpg';
 import homePageMainWith400 from '../../assets/homePageMainWith400.jpg';
 import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 
@@ -7,10 +8,11 @@ import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 export const GreenAndWindowContainer = styled.div`
    display: flex;
    width: 100%;
-   min-height: 25%;
+   min-height: 16%;
    @media screen and (max-width: 450px){
     display: grid;
-  }
+   }
+
 `;
 export const GreenAndWindowSquare = styled.div`
   display: flex;
@@ -36,10 +38,13 @@ export const GreenAndWindowImage = styled.div`
     width: 100%;
     background-size: cover;
   }
-  @media screen and (max-width: 100px)and (-webkit-min-device-pixel-ratio:2){
+  @media screen and (max-width: 1400px){
+    background-image: url(${homePageMain700});
+  }
+  @media screen and (max-width: 1000px)and (-webkit-min-device-pixel-ratio:2){
     background-image: url(${homePageMainWith500});
   }
-  @media screen and (max-width: 800px)and (-webkit-min-device-pixel-ratio:2){
+  @media screen and (max-width: 800px){
     background-image: url(${homePageMainWith400});
   }
   @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
@@ -125,8 +130,8 @@ export const Hdiv = styled.div`
    @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
      h1{
      font-size: 35px;
-}
-}
+    }
+  }
     @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2){
       h1{
      
@@ -136,8 +141,8 @@ export const Hdiv = styled.div`
   @media screen and (max-width: 375px) {
     h1{
     font-size: 30px;
+    }
   }
-}
 `;
 export const Pdiv = styled.div`
   margin-left: 30px;
@@ -203,6 +208,7 @@ export const ButtonDiv = styled.div`
   }
   @media screen and (max-width: 735px){
     width: 59%;
+    margin: auto;
   }
   @media screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio:2){
     margin: auto;

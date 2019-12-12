@@ -1,15 +1,10 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { createStructuredSelector } from 'reselect'
-
-import { selectLanguage, selectAllContent} from '../../redux/content/content.selectors';
 
 import {GreenAndWindowContainer, GreenAndWindowSquare, GreenAndWindowImage, GreenWindowTextContainer, Hdiv, Pdiv, ButtonDiv, ButtonText} from './greenAndWindow.styled';
 
 
-const GreenAndWindow = ({selectLanguage, selectAllContent}) =>{
-  const {homePage:{slogan, homeTextUnderSlogan, buttonCollUsText}} = selectAllContent[selectLanguage];
-  console.log(selectAllContent[selectLanguage])
+const GreenAndWindow = ({homePage}) =>{
+  const {slogan, homeTextUnderSlogan, buttonCollUsText} = homePage;
   return(
   <GreenAndWindowContainer>
     <GreenAndWindowSquare>
@@ -24,8 +19,4 @@ const GreenAndWindow = ({selectLanguage, selectAllContent}) =>{
     </GreenAndWindowImage>
   </GreenAndWindowContainer>
 )}
-const mapStateToProps = createStructuredSelector({
-  selectLanguage: selectLanguage,
-  selectAllContent: selectAllContent
-})
-export default connect(mapStateToProps)(GreenAndWindow);
+export default GreenAndWindow;

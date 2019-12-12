@@ -29,8 +29,8 @@ const Header = ({selectLanguage, changeLangToRu, changeLangToRo}) =>(
     </LitleScreenPhone>
     <HeaderLanguageChange>
       { selectLanguage === 'romanian' ?
-        (<div onClick={changeLangToRu}><img src={ro} alt='romanian' title='rom' /></div>) :
-      (<div onClick={changeLangToRo}><img src={ru} alt='russian' title='rus' /></div>)}
+        (<div onClick={changeLangToRu}><img src={ru} alt='romanian' title='rus' /></div>) :
+      (<div onClick={changeLangToRo}><img src={ro} alt='russian' title='rom' /></div>)}
       </HeaderLanguageChange>
   </HeaderContainer>
 )
