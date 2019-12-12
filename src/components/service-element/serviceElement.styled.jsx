@@ -24,4 +24,9 @@ export const TextDiv = styled.div`
   p{
     font-size: 25px;
   }
+  @media screen and (max-width: 1233px){
+    p{
+      font-size: 22px;
+    }
+   }
 `;

@@ -9,9 +9,31 @@ export const GreenAndWindowContainer = styled.div`
    display: flex;
    width: 100%;
    min-height: 16%;
+   @media screen and (max-width: 1350px){
+    min-height: 15%;
+   }
+   @media screen and (max-width: 1271px){
+    min-height: 14%;
+   }
+   @media screen and (max-width: 1201px){
+    min-height: 13%;
+   }
+   @media screen and (max-width: 1132px){
+    min-height: 11%;
+   }
+   @media screen and (max-width: 940px){
+    min-height: 10%;
+   }
+   @media screen and (max-width: 865px){
+    min-height: 8%;
+   }
+   @media screen and (max-width: 845px){
+    min-height: 7%;
+   }
    @media screen and (max-width: 450px){
     display: grid;
    }
+   
 
 `;
 export const GreenAndWindowSquare = styled.div`
@@ -106,6 +128,11 @@ export const Hdiv = styled.div`
         font-size: 32px;
       }
     }
+    @media screen and (max-width: 845px){
+      h1{
+        font-size: 28px;
+      }
+    }
     @media screen and (max-width: 812px){
       h1{
         font-size: 25px;
@@ -178,12 +205,17 @@ export const ButtonDiv = styled.div`
   height: 8%;
   margin-left: 30px;
   margin-top: 20px;
+  margin-bottom:10px;
   border: 2px solid white;
   border-radius: 6px;
   @media screen and (max-width: 1365px){
     margin-left: 25px;
     margin-top: 17px;
   }
+  @media screen and (max-width: 1312px){
+    width: 36%;
+    height: 9%;
+
   @media screen and (max-width: 1099px){
     width: 36%;
     height: 9%;
@@ -198,6 +230,7 @@ export const ButtonDiv = styled.div`
   }
   @media screen and (max-width: 879px){
     width: 49%;
+    margin-bottom:10px;
   }
   @media screen and (max-width: 823px) and (-webkit-min-device-pixel-ratio:2){
     width: 54%;
@@ -240,6 +273,9 @@ export const ButtonText = styled.div`
   @media screen and (max-width: 1365px) and (-webkit-min-device-pixel-ratio:2) {
     margin: 7px 18px;
     font-size: 20px;
+  }
+  @media screen and (max-width: 1360px) {
+    font-size: 22px;
   }
   @media screen and (max-width: 1199px){
     font-size: 17px;

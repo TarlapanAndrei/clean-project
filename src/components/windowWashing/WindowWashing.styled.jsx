@@ -4,8 +4,16 @@ import WindowWash from '../../assets/WindowWosh.png';
 export const WindowWashingPix = styled.div`
   background-image: url(${WindowWash});
   background-size: cover;
-  width: 1400px;
-  height: 16%;
+  width: 100%;
+  height: 14%;
+  border: 1px solid black;
+  @media screen and (max-width: 790px){
+    height: 10%;
+  }
+  @media screen and (max-width: 790px){
+    height: 8%;
+  }
+  
 `;
 export const HeaderDiv = styled.div`
   display: flex;
@@ -22,6 +30,13 @@ export const HeaderDivStart = styled.div`
 export const HeaderDivBig = styled.div`
   color: white;
   font-size: 39px;
+  @media screen and (max-width: 790px){
+    font-size: 30px;
+  }
+  @media screen and (max-width: 615px){
+    font-size: 25px;
+  }
+
 `;
 export const HeaderHr = styled.div`
   width: 110px;
