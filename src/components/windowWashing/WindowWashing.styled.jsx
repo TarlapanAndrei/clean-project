@@ -6,12 +6,14 @@ export const WindowWashingPix = styled.div`
   background-size: cover;
   width: 100%;
   height: 14%;
-  border: 1px solid black;
   @media screen and (max-width: 790px){
     height: 10%;
   }
   @media screen and (max-width: 790px){
     height: 8%;
+  }
+  @media screen and (max-width: 320px){
+    margin-left: 15px;
   }
   
 `;

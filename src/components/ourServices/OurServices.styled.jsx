@@ -5,7 +5,6 @@ export const OurServicesContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
   background-color: #FFFDF6;
   @media screen and (max-width: 1132px){
     height: 42%;
@@ -20,7 +19,6 @@ export const HeaderDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid yellow;
   
 `;
 export const HeaderText = styled.div`
@@ -45,6 +43,10 @@ export const HeaderUnderLine = styled.div`
   justify-content: center;
   align-items: flex-start;
   background-color: black;
+  @media screen and (max-width: 411px){
+    width:150px;
+    margin-right: 50px;
+  }
 `;
 export const ServicesContainer = styled.div`
   margin-left: 150px;
@@ -83,8 +85,14 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 1032px){
     margin-left: 110px;
   }
+  @media screen and (max-width: 896px){
+    margin-left: 80px;
+  }
   @media screen and (max-width: 856px){
     margin-left: 40px;
+  }
+  @media screen and (max-width: 823px){
+    margin-left: 65px;
   }
   @media screen and (max-width: 812px){
     margin-left: 45px;
@@ -95,11 +103,32 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 768px){
     margin-left: 30px;
   }
+  @media screen and (max-width: 768px){
+    margin-left: 25px;
+  }
+  @media screen and (max-width: 731px){
+    margin-left: 20px;
+  }
   @media screen and (max-width: 697px){
     grid-template-columns: 50%;
     margin-left: 160px;
   }
   @media screen and (max-width: 697px){
+    margin-left: 165px;
+  }
+  @media screen and (max-width: 414px){
+    margin-left: 40px;
+  }
+  @media screen and (max-width: 411px){
+    margin-left: 35px;
+  }
+  @media screen and (max-width: 375px){
     margin-left: 20px;
+  }
+  @media screen and (max-width: 360px){
+    margin-left: 13px;
+  }
+  @media screen and (max-width: 320px){
+    margin-left: 10px;
   }
 `;

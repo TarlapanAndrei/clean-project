@@ -33,6 +33,9 @@ export const GreenAndWindowContainer = styled.div`
    @media screen and (max-width: 450px){
     display: grid;
    }
+   @media screen and (max-width: 320px){
+    margin-left: 10px;
+  }
    
 
 `;
