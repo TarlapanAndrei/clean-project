@@ -56,7 +56,6 @@ export const GreenAndWindowSquare = styled.div`
   }
 `;
 export const GreenAndWindowImage = styled.div`
-  display: flex;
   heigth: 50%;
   background-image: url(${homePageMain});
   background-size: cover;
