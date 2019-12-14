@@ -24,6 +24,6 @@ export const HomepageContainer = styled.div`
   }
   @media screen and (max-width: 320px){
     margin-left: 8px;
-    max-width: 300px;
+    max-width: 305px;
   }
 `;

@@ -7,10 +7,9 @@ import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 
 
 export const GreenAndWindowContainer = styled.div`
-   display: flex;
-   width: 100%;
+   display: grid;
+   grid-template-columns: 50% 50%;
    min-height: 16%;
-   border: 1px solid blue;
    @media screen and (max-width: 1350px){
     min-height: 15%;
    }
@@ -32,23 +31,22 @@ export const GreenAndWindowContainer = styled.div`
    @media screen and (max-width: 845px){
     min-height: 7%;
    }
-   @media screen and (max-width: 450px){
-    display: grid;
+   @media screen and (max-width: 568px){
+    min-height: 5%;
    }
-   @media screen and (max-width: 320px){
-    display: grid;
+   @media screen and (max-width: 450px){
+    grid-template-columns: 100%;
+    min-height: 9%;
    }
    
 
 `;
 export const GreenAndWindowSquare = styled.div`
   display: flex;
-  width: 50%;
   background-color: rgba(26, 95, 57, 1.0);
   max-heigth: 100%;
   @media screen and (max-width: 550px){
     width: 100%;
-    max-height: 1000px;
   }
   @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
     height: 550px;
@@ -59,14 +57,10 @@ export const GreenAndWindowSquare = styled.div`
 `;
 export const GreenAndWindowImage = styled.div`
   display: flex;
-  width: 50%;
-  heigth: 100%;
+  heigth: 50%;
   background-image: url(${homePageMain});
   background-size: cover;
-  background-repeat: no-repeat;
-  @media screen and (max-width: 450px){
-    width: 100%;
-    background-size: cover;
+  background-repeat: no-repeat; 
   }
   @media screen and (max-width: 1400px){
     background-image: url(${homePageMain700});
@@ -82,8 +76,6 @@ export const GreenAndWindowImage = styled.div`
   }
   @media screen and (max-width: 414px)and (-webkit-min-device-pixel-ratio:2){
     height: 414px;
-    width: 100%;
-    background-size: cover
     background-image: url(${homePageMainWith500});
   }
   @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2){
@@ -94,7 +86,7 @@ export const GreenAndWindowImage = styled.div`
     height: 360px;
   }
   @media screen and (max-width: 320px){
-    height: 320px;
+    height: 310px;
     width: 300px;
   }
 `;
