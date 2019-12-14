@@ -26,7 +26,7 @@ export const HeaderContainer = styled.div`
     font-size: 13px;
   }
   @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
-    height: 80px;
+    height: 70px;
   }
 `;
 export const HeaderLogoDiv = styled.div`
@@ -84,6 +84,9 @@ export const HeaderLanguageChange = styled.div`
   }
   @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
     padding-right: 15px;
+  }
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
+    padding-right: 5px;
   }
 `;
 export const LitleScreenPhone = styled.div`

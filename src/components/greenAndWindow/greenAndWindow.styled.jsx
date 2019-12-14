@@ -5,10 +5,12 @@ import homePageMainWith400 from '../../assets/homePageMainWith400.jpg';
 import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 
 
+
 export const GreenAndWindowContainer = styled.div`
    display: flex;
    width: 100%;
    min-height: 16%;
+   border: 1px solid blue;
    @media screen and (max-width: 1350px){
     min-height: 15%;
    }
@@ -34,8 +36,8 @@ export const GreenAndWindowContainer = styled.div`
     display: grid;
    }
    @media screen and (max-width: 320px){
-    margin-left: 10px;
-  }
+    display: grid;
+   }
    
 
 `;
@@ -50,6 +52,9 @@ export const GreenAndWindowSquare = styled.div`
   }
   @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
     height: 550px;
+  }
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
+    width:100%;
   }
 `;
 export const GreenAndWindowImage = styled.div`
@@ -88,8 +93,9 @@ export const GreenAndWindowImage = styled.div`
   @media screen and (max-width: 360px) {
     height: 360px;
   }
-  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
+  @media screen and (max-width: 320px){
     height: 320px;
+    width: 300px;
   }
 `;
 export const GreenWindowTextContainer = styled.div`
@@ -172,6 +178,11 @@ export const Hdiv = styled.div`
     h1{
     font-size: 30px;
     }
+  }
+  @media screen and (max-width: 320px){
+    h1{
+      font-size: 22px;
+      }
   }
 `;
 export const Pdiv = styled.div`

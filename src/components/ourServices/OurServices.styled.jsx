@@ -1,16 +1,22 @@
 import styled from 'styled-components';
 
 export const OurServicesContainer = styled.div`
-  height: 28%;
+  height: 27%;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #FFFDF6;
   @media screen and (max-width: 1132px){
-    height: 42%;
+    height: 27%;
+   }
+   @media screen and (max-width: 1032px){
+    height: 38%;
    }
    @media screen and (max-width: 697px){
-    height: 66%;
+    height: 60%;
+   }
+   @media screen and (max-width: 320px){
+    height: 59%;
    }
 `;
 export const HeaderDiv = styled.div`
@@ -30,9 +36,14 @@ export const HeaderText = styled.div`
   h2{
     font-size: 45px;
   }
+  @media screen and (max-width: 900px){
+    h2{
+      font-size: 34px;
+    }
+  }
   @media screen and (max-width: 788px){
     h2{
-      font-size: 38px;
+      font-size: 30px;
     }
   }
 `;
@@ -44,8 +55,7 @@ export const HeaderUnderLine = styled.div`
   align-items: flex-start;
   background-color: black;
   @media screen and (max-width: 411px){
-    width:150px;
-    margin-right: 50px;
+    display: none;
   }
 `;
 export const ServicesContainer = styled.div`
@@ -116,6 +126,9 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 697px){
     margin-left: 165px;
   }
+  @media screen and (max-width: 568px){
+    margin-left: 120px;
+  }
   @media screen and (max-width: 414px){
     margin-left: 40px;
   }
@@ -129,6 +142,6 @@ export const ServicesContainer = styled.div`
     margin-left: 13px;
   }
   @media screen and (max-width: 320px){
-    margin-left: 10px;
+    margin-left: 0px;
   }
 `;

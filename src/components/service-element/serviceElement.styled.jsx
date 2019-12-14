@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 export const EveryServiceContainer = styled.div`
   width: 330px;
-  height: 550px;
+  height: 500px;
   cursor: pointer;
   @media screen and (max-width: 320px){
-    width: 310px;
+    width: 300px;
+   
   }
 `;
 
@@ -21,7 +22,6 @@ export const ImageDiv = styled.div`
 export const TextDiv = styled.div`
   width: 97%;
   padding-left: 10px;
-  padding-top: 10px;
   p{
     font-size: 25px;
   }
