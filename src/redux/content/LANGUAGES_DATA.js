@@ -37,7 +37,7 @@ const roRuContent = {
       windowText2:"Rezultatele noastre in cifre",
       customerCount:"clienti in toata tara",
       personelCount: "specialisti in cleaning",
-      tehnologi: "tehnologii mindiale pentru curatat",
+      tehnologi: "tehnologii mondiale pentru curatat",
       customerPercent: "clienti care au ramas multumiti"
     }
   }

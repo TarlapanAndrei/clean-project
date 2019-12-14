@@ -56,7 +56,7 @@ export const GreenAndWindowSquare = styled.div`
   }
 `;
 export const GreenAndWindowImage = styled.div`
-  heigth: 50%;
+  heigth: 100%;
   background-image: url(${homePageMain});
   background-size: cover;
   background-repeat: no-repeat; 
