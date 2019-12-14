@@ -7,302 +7,173 @@ import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 
 
 export const GreenAndWindowContainer = styled.div`
-   display: grid;
-   grid-template-columns: 50% 50%;
-   min-height: 16%;
-   @media screen and (max-width: 1350px){
-    min-height: 15%;
-   }
-   @media screen and (max-width: 1271px){
-    min-height: 14%;
-   }
-   @media screen and (max-width: 1201px){
-    min-height: 13%;
-   }
-   @media screen and (max-width: 1132px){
-    min-height: 11%;
-   }
-   @media screen and (max-width: 940px){
-    min-height: 10%;
-   }
-   @media screen and (max-width: 865px){
-    min-height: 8%;
-   }
-   @media screen and (max-width: 845px){
-    min-height: 7%;
-   }
-   @media screen and (max-width: 568px){
-    min-height: 5%;
-   }
-   @media screen and (max-width: 450px){
-    grid-template-columns: 100%;
-    min-height: 9%;
-   }
-   
-
+   display: flex;
+   max-width: 100%;
+   border: 1px solid red;
 `;
 export const GreenAndWindowSquare = styled.div`
-  display: flex;
+  display: block;
+  width: 50%;
   background-color: rgba(26, 95, 57, 1.0);
-  max-heigth: 100%;
-  @media screen and (max-width: 550px){
-    width: 100%;
-  }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
-    height: 550px;
-  }
-  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
-    width:100%;
+  border: 1px solid blue;
   }
 `;
 export const GreenAndWindowImage = styled.div`
-  heigth: 100%;
-  background-image: url(${homePageMain});
-  background-size: cover;
-  background-repeat: no-repeat; 
-  }
-  @media screen and (max-width: 1400px){
-    background-image: url(${homePageMain700});
-  }
-  @media screen and (max-width: 1000px)and (-webkit-min-device-pixel-ratio:2){
-    background-image: url(${homePageMainWith500});
-  }
-  @media screen and (max-width: 800px){
-    background-image: url(${homePageMainWith400});
-  }
-  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
-    background-image: url(${homePageMainWith400});
-  }
-  @media screen and (max-width: 414px)and (-webkit-min-device-pixel-ratio:2){
-    height: 414px;
-    background-image: url(${homePageMainWith500});
-  }
-  @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2){
-    height: 375px;
-    background-image: url(${homePageMainWith400});
-  }
-  @media screen and (max-width: 360px) {
-    height: 360px;
-  }
-  @media screen and (max-width: 320px){
-    height: 310px;
-    width: 300px;
-  }
+  max-width: 50%;
+  border: 2px solid blue;
+   img{
+     width: 100%;
+     display: block;
+   }
 `;
 export const GreenWindowTextContainer = styled.div`
-  margin-top: 80px;
+  margin-top: 1em;
   color: white;
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 1365px){
-    margin-top: 70px;
-  }
-  @media screen and (max-width: 1099px){
-    margin-top: 60px;
-  }
 `;
 export const Hdiv = styled.div`
-    margin-left: 30px;
+    margin-top: 2.3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
     h1{
-      font-size: 62px;
+      font-size: 3rem;
     }
-    @media screen and (max-width: 1365px){
-      margin-left: 25px;
+    @media (max-width: 1470px){
       h1{
-        font-size: 55px;
+        font-size:2.9rem;
       }
     }
-    @media screen and (max-width: 1099px){
-      margin-left: 20px;
+    @media (max-width: 1404px){
       h1{
-        font-size: 45px;
+        font-size:2.7rem;
       }
     }
-    @media screen and (max-width: 949px){
+    @media (max-width: 1345px){
       h1{
-        font-size: 36px;
+        font-size:2.5rem;
       }
     }
-    @media screen and (max-width: 879px){
+    @media (max-width: 1345px){
+      margin-bottom: 0;
       h1{
-        font-size: 32px;
+        font-size:2.3rem;
       }
     }
-    @media screen and (max-width: 845px){
+    @media (max-width: 1189px){
       h1{
-        font-size: 28px;
+        font-size:2rem;
       }
     }
-    @media screen and (max-width: 812px){
+    @media (max-width: 949px){
       h1{
-        font-size: 25px;
+        font-size: 1.6rem;
       }
     }
-    @media screen and (max-width: 667px){
-      margin-left: 18px;
+    @media (max-width: 859px){
       h1{
-        font-size: 20px;
+        font-size: 1.3rem;
       }
     }
-    @media screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio:2) {
+    @media (max-width: 780px){
       h1{
-        font-size: 19px;
+        margin-bottom: .1em;
+        font-size: 1.1rem;
+        margin-top: 1.5em;
       }
     }
-    @media screen and (max-width: 414px){
+    @media (max-width: 764px){
       h1{
-        font-size: 25px;
-    }
-  }
-   @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
-     h1{
-     font-size: 35px;
-    }
-  }
-    @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2){
-      h1{
-     
-      font-size: 35px;
-    }
-  }
-  @media screen and (max-width: 375px) {
-    h1{
-    font-size: 30px;
-    }
-  }
-  @media screen and (max-width: 320px){
-    h1{
-      font-size: 22px;
+        font-size: 1rem;
+        margin-top: 1.2em;
       }
-  }
+    }
+    @media (max-width: 654px){
+      h1{
+        font-size: .9rem;
+        margin-top: 1em;
+        margin-bottom: 0;
+      }
+    }
 `;
 export const Pdiv = styled.div`
-  margin-left: 30px;
-  margin-right: 25px;
-  font-size: 25px;
-  @media screen and (max-width: 1365px){
-    margin-left: 25px;
-    margin-right: 20px;
-    font-size: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  font-size: 2rem;
+  @media (max-width: 1470px){
+    font-size: 1.9rem;
   }
-  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2){
-    font-size: 22px;
+  @media (max-width: 1404px){
+    font-size: 1.8rem;
   }
-  @media screen and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2) {
-    font-size: 20px;
+  @media (max-width: 1345px){
+    font-size: 1.7rem;
   }
-  @media screen and (max-width: 667px){
-    font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
+  @media (max-width: 1345px){
+    margin-bottom: 1em;
   }
-  @media screen and (max-width: 639px) and (-webkit-min-device-pixel-ratio:2){
-    font-size: 16px;
+  @media (max-width: 1189px){
+    margin-bottom: 0;
   }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
-    margin-left: 30px;
-    margin-right: 25px;
-    font-size: 22px;
+  @media (max-width: 1148px){
+    font-size: 1.5rem;
+  }
+  @media (max-width: 1052px){
+    font-size: 1.3rem;
+  }
+  @media (max-width: 949px){
+    font-size: 1.3rem;
+  }
+  @media (max-width: 916px){
+    font-size: 1.1rem;
+  }
+  @media (max-width: 764px){
+    font-size: 1rem;
+  }
+  @media (max-width: 622px){
+    font-size: .9rem;
+  }
+  @media (max-width: 593px){
+    font-size: .8rem;
   }
 `;
 export const ButtonDiv = styled.div`
-  width: 32%;
-  height: 8%;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom:10px;
-  border: 2px solid white;
-  border-radius: 6px;
-  @media screen and (max-width: 1365px){
-    margin-left: 25px;
-    margin-top: 17px;
+  width: 15em;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom:3em;
+  border: 0.2rem solid white;
+  border-radius: .5rem;
+  padding: .3em;
+  @media (max-width: 1470px){
+    margin-bottom:2.5em;
   }
-  @media screen and (max-width: 1312px){
-    width: 36%;
-    height: 9%;
-
-  @media screen and (max-width: 1099px){
-    width: 36%;
-    height: 9%;
+  @media (max-width: 815px){
+    margin-bottom:2em;
   }
-  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2){
-    width: 42%;
-    height: 11%;
+  @media (max-width: 792px){
+    margin-bottom:1.5em;
   }
-  @media screen and (max-width: 949px){
-    width: 46%;
-    height: 11%;
+  @media (max-width: 714px){
+    margin-bottom:.5em;
+    margin-top: 0;
   }
-  @media screen and (max-width: 879px){
-    width: 49%;
-    margin-bottom:10px;
-  }
-  @media screen and (max-width: 823px) and (-webkit-min-device-pixel-ratio:2){
-    width: 54%;
-    margin: auto;
-  }
-  @media screen and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2){
-    width: 54%;
-  }
-  @media screen and (max-width: 735px){
-    width: 59%;
-    margin: auto;
-  }
-  @media screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio:2){
-    margin: auto;
-  }
-  @media screen and (max-width: 666px){
-    width: 65%;
-  }
-  @media screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio:2) {
-    width: 69%;
-    margin: auto
-  }
-  @media screen and (max-width: 579px){
-    width: 77%;
-  }
-  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
-    margin-top:0px;
-  }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2) {
-    width: 87%;
-  }
-  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2) {
-    width: 87%;
-    margin: auto;
+  @media (max-width: 654px){
+    width: 12em;
+    margin-bottom:0;
   }
 `;
 export const ButtonText = styled.div`
-  margin: 11px 20px;
-  font-size: 23px;
-  @media screen and (max-width: 1365px) and (-webkit-min-device-pixel-ratio:2) {
-    margin: 7px 18px;
-    font-size: 20px;
+  margin: .2em .1em;
+  font-size: 1.5rem;
+  @media (max-width: 1052px){
+    font-size: 1.2rem;
   }
-  @media screen and (max-width: 1360px) {
-    font-size: 22px;
+  @media (max-width: 815px){
+    font-size: 1.1rem;
   }
-  @media screen and (max-width: 1199px){
-    font-size: 17px;
-  }
-  @media screen and (orientation : portrait) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio:2) {
-    font-size: 20px;
-  }
-  @media screen and (max-width: 568px)and (-webkit-min-device-pixel-ratio:2){
-    padding:auto;
-    margin: auto;
-  }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2) {
-    margin: 10px 75px;
-    font-size: 25px;
-  }
-  @media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio:2) {
-    margin: 6px 55px;
-  }
-  @media screen and (max-width: 360px) and (-webkit-min-device-pixel-ratio:2) {
-    margin: 6px 55px;
-  }
-  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2) {
-    margin: 6px 35px;
+  @media (max-width: 654px){
+    font-size: .8rem;
   }
 `;

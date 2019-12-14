@@ -7,13 +7,7 @@ export const WindowWashingPix = styled.div`
   background-image: url(${WindowWash});
   background-size: cover;
   width: 100%;
-  height: 14%;
-  @media screen and (max-width: 1024px){
-    height: 11%;
-  }
-  @media screen and (max-width: 900px){
-    height: 10%;
-  }
+  height: 700px;
   @media screen and (max-width: 824px){
     height: 10%;
     background-image: url(${WindowWash});
