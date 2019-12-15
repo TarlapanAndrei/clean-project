@@ -1,118 +1,164 @@
 import styled from 'styled-components';
 import WindowWash from '../../assets/WindowWosh.png';
-import WindowWash600 from '../../assets/WindowWash600.jpg';
-import WindowWashMini from '../../assets/WindowWashMini.png';
 
 export const WindowWashingPix = styled.div`
   background-image: url(${WindowWash});
-  background-size: cover;
   width: 100%;
-  height: 700px;
-  @media screen and (max-width: 824px){
-    height: 10%;
-    background-image: url(${WindowWash});
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  @media (max-width: 585px){
+    height: 250px;
   }
-  @media screen and (max-width: 790px){
-    height: 8%;
-  }
-  @media screen and (max-width: 667px){
-    background-image: url(${WindowWash600});
-    height: 5%;
-  @media screen and (max-width: 641px){
-    background-image: url(${WindowWash600});
-    height: 6%;
-  }
-  @media screen and (max-width: 568px){
-    height: 5.5%;
-  }
-  @media screen and (max-width: 450px){
-    background-image: url(${WindowWashMini});
-    background-size: cover;
-    width: 100%;
-    height: 6%;
-  }
-  
+
 `;
 export const HeaderDiv = styled.div`
+  margin-top: 8em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
-  height: 33%;
-  background-color: rgba(0, 0, 0, 0.3);
-
+  height: 50%;
+  text-shadow: 
+		-0   -1px 3px #706C6C,
+		 0   -1px 3px #706C6C,
+		-0    1px 3px #706C6C,
+		 0    1px 3px #706C6C,
+		-1px -0   3px #706C6C,
+		 1px -0   3px #706C6C,
+		-1px  0   3px #706C6C,
+		 1px  0   3px #706C6C,
+		-1px -1px 3px #706C6C,
+		 1px -1px 3px #706C6C,
+		-1px  1px 3px #706C6C,
+		 1px  1px 3px #706C6C,
+		-1px -1px 3px #706C6C,
+		 1px -1px 3px #706C6C,
+		-1px  1px 3px #706C6C,
+		 1px  1px 3px #706C6C;
+     @media (max-width: 883px){
+      height: 30%;
+      margin-top: 4em;
+     }
+     @media (max-width: 677px){
+      margin-top: 2em;
+     }
+     @media (max-width: 585px){
+      margin-top: 0em;
+      height: 1.9rem;
+     }
+     
 
 `;
 export const HeaderDivStart = styled.div`
   color: white;
   display:flex;
-  height: 20px;
-  @media screen and (max-width: 667px){
+  font-size: 1rem;
+  line-height: 0rem;
+  @media (max-width: 1282px){
+    font-size: .8rem;
+  }
+  @media (max-width: 1196px){
+    font-size: .7rem;
+  }
+  @media (max-width: 612px){
     display: none;
   }
 `;
 export const HeaderDivBig = styled.div`
   color: white;
-  font-size: 39px;
-  @media screen and (max-width: 812px){
-    font-size: 28px;
+  font-size: 3rem;
+  line-height: 0rem;
+  @media (max-width: 1282px){
+    font-size: 2.3rem;
   }
-  @media screen and (max-width: 667px){
-    font-size: 22px;
+  @media (max-width: 1196px){
+    font-size: 2rem;
   }
-  @media screen and (max-width: 641px){
-    font-size: 25px;
+  @media (max-width: 883px){
+    font-size: 1.2rem;
   }
-  @media screen and (max-width: 500px){
-    
+  @media (max-width: 605px){
+    font-size: .8rem;
   }
-
+  
 `;
 export const HeaderHr = styled.div`
-  border: 2px solid green;
   width: 110px;
   height: 2px;
   background-color: white;
-  margin-bottom: 10px;
-  @media screen and (max-width: 1024px){
-      display: none;
-  }
-
+  margin-bottom: 1em;
+@media (max-width: 720px){
+  display: none;
+}
 `;
 export const CustomerNumbers = styled.div`
   max-width: 90%;
-  height: auto;
   display:grid;
-  grid-template-columns: 22% 20% 20% 20%;
-  column-gap: 20px;
-  row-gap: 20px;
-  margin-top: 6%;
-  margin-left: 10%;
+  grid-template-columns: 23% 23% 23% 23%;
+  column-gap: 1em;
+  row-gap: 1em;
+  margin-top: 6em;
+  margin-left: 9em;
+  margin-bottom: 5em;
   text-shadow: 
-		-0   -1px 6px #706C6C,
-		 0   -1px 6px #706C6C,
-		-0    1px 6px #706C6C,
-		 0    1px 6px #706C6C,
-		-1px -0   6px #706C6C,
-		 1px -0   6px #706C6C,
-		-1px  0   6px #706C6C,
-		 1px  0   6px #706C6C,
-		-1px -1px 6px #706C6C,
-		 1px -1px 6px #706C6C,
-		-1px  1px 6px #706C6C,
-		 1px  1px 6px #706C6C,
-		-1px -1px 6px #706C6C,
-		 1px -1px 6px #706C6C,
-		-1px  1px 6px #706C6C,
-		 1px  1px 6px #706C6C;
-  @media screen and (max-width: 641px){
-    height: 30%;
+		-0   -1px 3px #706C6C,
+		 0   -1px 3px #706C6C,
+		-0    1px 3px #706C6C,
+		 0    1px 3px #706C6C,
+		-1px -0   3px #706C6C,
+		 1px -0   3px #706C6C,
+		-1px  0   3px #706C6C,
+		 1px  0   3px #706C6C,
+		-1px -1px 3px #706C6C,
+		 1px -1px 3px #706C6C,
+		-1px  1px 3px #706C6C,
+		 1px  1px 3px #706C6C,
+		-1px -1px 3px #706C6C,
+		 1px -1px 3px #706C6C,
+		-1px  1px 3px #706C6C,
+     1px  1px 3px #706C6C;
+  @media (max-width: 1380px){
+    margin-left: 7em;
   }
-  @media screen and (max-width: 500px){
-    width: 60%;
-    dispaly: grid;
-    grid-template-columns: 60% 60%;
-    column-gap: 40px;
+  @media (max-width: 1282px){
+    margin-left: 6em;
+  }
+  @media (max-width: 1150px){
+    margin-left: 4em;
+  }
+  @media ( max-width: 1070px){
+    margin-left: 3em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+  }
+  @media ( max-width: 955px){
+    margin-top: 0em;
+  }
+  @media (max-width: 600px){
+    margin-left: 1em;
+  }
+
+  @media (max-width: 585px){
+    grid-template-columns: 40% 40%;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    margin-left: 6em;
+    max-width: 80%;
+  }
+  @media (max-width: 560px){
+    margin-left: 6em;
+    margin-bottom: 3em;
+    max-width: 70%;
+  }
+  @media (max-width: 414px){
+    margin-left: 5em;
+  }
+
+  @media (max-width: 375px){
+    margin-left: 4em;
+  }
+  @media (max-width: 320px){
+    margin-left: 3.5em;
   }
 `;
 

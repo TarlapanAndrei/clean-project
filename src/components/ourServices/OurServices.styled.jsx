@@ -1,147 +1,105 @@
 import styled from 'styled-components';
 
 export const OurServicesContainer = styled.div`
-  height: 27%;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #FFFDF6;
-  @media screen and (max-width: 1132px){
-    height: 27%;
-   }
-   @media screen and (max-width: 1032px){
-    height: 38%;
-   }
-   @media screen and (max-width: 697px){
-    height: 60%;
-   }
-   @media screen and (max-width: 320px){
-    height: 59%;
-   }
 `;
 export const HeaderDiv = styled.div`
   width: 100%;
-  height: 120px;
+  height: 7em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  @media (max-width: 1000px){
+    height: 6em;
+  }
+  @media (max-width: 885px){
+    height: 5em;
+  }
 `;
 export const HeaderText = styled.div`
   width: 43%;
   height: 80%;
+  color: #545C55;
   display: flex;
   justify-content: center;
   align-items: center;
   h2{
-    font-size: 45px;
+    font-size: 3rem;
   }
-  @media screen and (max-width: 900px){
+  @media (max-width: 1020px){
     h2{
-      font-size: 34px;
+      font-size: 2.5rem;
     }
   }
-  @media screen and (max-width: 788px){
+  @media (max-width: 885px){
     h2{
-      font-size: 30px;
+      font-size: 2rem;
     }
   }
 `;
 export const HeaderUnderLine = styled.div`
-  width:80px;
-  height: 2px;
+  width:10em;
+  height: 0.2em;
   dispaly: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: black;
-  @media screen and (max-width: 411px){
+  background-color: #545C55;
+  @media (max-width: 1020px){
+    width:8em;
+  }
+  @media (max-width: 885px){
+    width:7em;
+  }
+  @media screen and (max-width: 450px){
     display: none;
   }
 `;
 export const ServicesContainer = styled.div`
-  margin-left: 150px;
-  margin-right: 110px;
-  margin-top: 20px;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 1em;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  @media screen and (max-width: 1300px){
-    margin-left: 100px;
-    margin-right: 70px;
-  }
-  @media screen and (max-width: 1300px){
-    margin-left: 100px;
-    margin-right: 70px;
-  }
-  @media screen and (max-width: 1200px){
-    margin-left: 70px;
-    margin-right: 50px;
-  }
-  @media screen and (max-width: 1150px){
-    margin-left: 40px;
-    margin-right: 30px;
-  }
-  @media screen and (max-width: 1101px){
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  @media screen and (max-width: 1032px){
-    grid-template-columns: 50% 50%;
-    margin-left: 150px;
-    margin-right: 5px;
-  }
-  @media screen and (max-width: 1032px){
-    margin-left: 80px;
-  }
-  @media screen and (max-width: 1032px){
-    margin-left: 110px;
-  }
-  @media screen and (max-width: 896px){
-    margin-left: 80px;
-  }
-  @media screen and (max-width: 856px){
-    margin-left: 40px;
-  }
-  @media screen and (max-width: 823px){
-    margin-left: 65px;
-  }
-  @media screen and (max-width: 812px){
-    margin-left: 45px;
-  }
-  @media screen and (max-width: 775px){
-    margin-left: 5px;
-  }
-  @media screen and (max-width: 768px){
-    margin-left: 30px;
-  }
-  @media screen and (max-width: 768px){
-    margin-left: 25px;
-  }
-  @media screen and (max-width: 731px){
-    margin-left: 20px;
-  }
-  @media screen and (max-width: 697px){
-    grid-template-columns: 50%;
-    margin-left: 160px;
-  }
-  @media screen and (max-width: 697px){
-    margin-left: 165px;
-  }
-  @media screen and (max-width: 568px){
-    margin-left: 120px;
-  }
-  @media screen and (max-width: 414px){
-    margin-left: 40px;
-  }
-  @media screen and (max-width: 411px){
-    margin-left: 35px;
-  }
-  @media screen and (max-width: 375px){
-    margin-left: 20px;
-  }
-  @media screen and (max-width: 360px){
-    margin-left: 13px;
-  }
-  @media screen and (max-width: 320px){
-    margin-left: 0px;
-  }
-`;
+  gap: 1.6em;
+    @media (max-width: 1450px){
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+    @media (max-width: 1370px){
+      margin-left: 2em;
+      margin-right: 2em;
+      gap: 1.5em;
+    }
+    @media (max-width: 1300px){
+      gap: 1.4em;
+    }
+    @media (max-width: 1182px){
+      gap: 1.3em;
+    }
+    @media (max-width: 1100px){
+      gap: 1.2em;
+    }
+    @media (max-width: 1077px){
+      gap: 1.2em;
+    }
+    @media (max-width: 1017px){
+      gap: 1.1em;
+    }
+    @media (max-width: 950px){
+      gap: 0.3em;
+      grid-template-columns: 34% 34% 34%;
+    }
+    @media (max-width: 790px){
+      grid-template-columns: 52% 52%;
+    }
+    @media (max-width: 790px){
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    @media (max-width: 500px){
+      grid-template-columns: 100%;
+    }
+`;  

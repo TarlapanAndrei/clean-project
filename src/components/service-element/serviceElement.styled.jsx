@@ -1,33 +1,35 @@
 import styled from 'styled-components';
 
 export const EveryServiceContainer = styled.div`
-  width: 330px;
-  height: 500px;
+  width: 90%;
   cursor: pointer;
-  @media screen and (max-width: 320px){
-    width: 300px;
-   
-  }
+  border: 2px solid #F0EEE8;
+  @media (max-width: 500px){
+    width: 100%;
 `;
 
 export const ImageDiv = styled.div`
   width: 100%;
-  max-height: 300px;
   img {
-    max-height: 100%;
     max-width: 100%;
   }
 
 `;
 export const TextDiv = styled.div`
   width: 97%;
-  padding-left: 10px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   p{
-    font-size: 25px;
+    font-size: 1.8rem;
   }
-  @media screen and (max-width: 1233px){
-    p{
-      font-size: 22px;
-    }
-   }
+  @media (max-width: 1300px){
+    p{font-size: 1.6rem;
+  }
+  @media (max-width: 1200px){
+    p{font-size: 1.4rem;
+  }
+  @media (max-width: 1050px){
+    p{font-size: 1.2rem;
+  }
+  
 `;

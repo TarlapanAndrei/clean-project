@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomerInfo from '../customerInfo/customerInfo';
-import { WindowWashingPix, HeaderDiv, HeaderDivStart, HeaderDivBig, HeaderHr, CustomerNumbers, WindowWashingPixMini} from './WindowWashing.styled';
+import { WindowWashingPix, HeaderDiv, HeaderDivStart, HeaderDivBig, HeaderHr, CustomerNumbers} from './WindowWashing.styled';
 const WindowWashing = ({WindowWash}) =>{
   const {windowText1, windowText2, customerCount, personelCount, tehnologi, customerPercent} = WindowWash;
   return(

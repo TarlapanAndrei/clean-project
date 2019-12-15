@@ -1,64 +1,72 @@
 import styled from 'styled-components';
 
 export const CustomerNumbers = styled.div`
-  max-width: 200px;
-  max-height: 150px;
+  max-width: 100%;
+  max-height: 100%;
   color: white;
   p{
-    font-size: 37px;
+    font-size: 4rem;
     line-height: 0;
   }
   h4{
-    font-size: 23px;
+    font-size: 1.5rem;
     line-height: 1;
   }
-  @media screen and (max-width: 958px){
+  @media (max-width: 1477px){
     p{
-      font-size: 28px;
+      font-size: 3rem;
       line-height: 0;
     }
     h4{
-      font-size: 19px;
-      line-height: 1;
-  }
-  @media screen and (max-width: 790px){
-    p{
-      font-size: 28px;
-      line-height: 0;
-    }
-    h4{
-      font-size: 18px;
-      line-height: 1;
+      font-size: 1.1rem;
+      line-height: 1.9;
     }
   }
-  @media screen and (max-width: 667px){
+  @media (max-width: 1374px){
     p{
-      font-size: 21px;
+      font-size: 2rem;
       line-height: 0;
     }
     h4{
-      font-size: 15px;
-      line-height: 1;
+      font-size: 1.1rem;
+      line-height: 1.9;
     }
   }
-  @media screen and (max-width: 641px){
+  @media (max-width: 1237px){
     p{
-      font-size: 20px;
+      font-size: 1.5rem;
       line-height: 0;
     }
     h4{
-      font-size: 15px;
-      line-height: 1;
+      font-size: 1rem;
+      line-height: 1.9;
     }
   }
-  @media screen and (max-width: 568px){
+  @media (max-width: 677px){
     p{
-      font-size: 15px;
+      font-size: 1rem;
       line-height: 0;
     }
     h4{
-      font-size: 12px;
+      font-size: .8rem;
+      line-height: 1.9;
+    }
+  }
+  @media (max-width: 605px){
+    p{
+      font-size: .7rem;
+      line-height: 0;
+    }
+    h4{
+      font-size: .8rem;
+      line-height: 1.9;
+    }
+  }
+  @media (max-width: 585px){
+    h4{
+      font-size: .8rem;
       line-height: 1;
+      height: 1.2rem;
     }
   }
 `;
