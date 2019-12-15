@@ -11,7 +11,7 @@ const PhoneCall = () =>(
     <a href="tel:+373 (22)288 611"><img src={Phone} alt="phone"/></a>
     </DivPhone>
     <DivPhone>
-    <a href="viber://add?number=%2B37369106651"><img src={Viber} alt="viber" /></a>
+    <a href="https://invite.viber.com/?g2=AQAc%2FszjaR9BJkrCNFRJdbFvPvBLc6Q6e%2BT6E44LZATVt1bYEo2EadEZS7Iq2L%2Bq"><img src={Viber} alt="viber" /></a>
     </DivPhone>
   </PhoneDropDownContainer>
 )
