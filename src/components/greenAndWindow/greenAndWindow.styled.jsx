@@ -9,7 +9,6 @@ import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
 export const GreenAndWindowContainer = styled.div`
    display: flex;
    max-width: 100%;
-   border: 1px solid red;
    @media (max-width: 566px){
      display:flex;
      flex-direction: column;
@@ -20,7 +19,6 @@ export const GreenAndWindowSquare = styled.div`
   display: block;
   width: 50%;
   background-color: rgba(26, 95, 57, 1.0);
-  border: 1px solid blue;
   }
   @media (max-width: 566px){
     width: 100%;
@@ -28,7 +26,6 @@ export const GreenAndWindowSquare = styled.div`
 `;
 export const GreenAndWindowImage = styled.div`
   max-width: 50%;
-  border: 2px solid blue;
    img{
      width: 100%;
      display: block;

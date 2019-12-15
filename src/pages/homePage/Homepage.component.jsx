@@ -10,8 +10,9 @@ import {HomepageContainer} from './HomePage.styled';
 import GreenAndWindow from '../../components/greenAndWindow/greenAndWindow.component';
 import OurServices from '../../components/ourServices/OurServices';
 import WindowWashing from '../../components/windowWashing/WindowWashing';
-
-const Homepage = ({ selectAllContent, selectLanguage}) =>{
+import PhoneCall from '../../components/phoneCall/phoneCall.component';
+import { selectStatus } from '../../redux/phoneCall/phoneCall.selectors';
+const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
   const  {homePage, OurServicesPage, WindowWash}  = selectAllContent[selectLanguage]
   console.log(homePage)
   return(
@@ -20,10 +21,13 @@ const Homepage = ({ selectAllContent, selectLanguage}) =>{
     <Header />
     <OurServices OurServicesPage={OurServicesPage}/>
     <WindowWashing WindowWash={WindowWash}/>
+    { selectStatus?
+      (<PhoneCall />): null }
   </HomepageContainer>
 )}
 const mapStateToProps = createStructuredSelector({
   selectAllContent: selectAllContent,
-  selectLanguage: selectLanguage
+  selectLanguage: selectLanguage,
+  selectStatus: selectStatus
 })
 export default connect(mapStateToProps)(Homepage);
