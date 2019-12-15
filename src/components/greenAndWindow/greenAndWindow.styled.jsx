@@ -10,12 +10,20 @@ export const GreenAndWindowContainer = styled.div`
    display: flex;
    max-width: 100%;
    border: 1px solid red;
+   @media (max-width: 566px){
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+   }
 `;
 export const GreenAndWindowSquare = styled.div`
   display: block;
   width: 50%;
   background-color: rgba(26, 95, 57, 1.0);
   border: 1px solid blue;
+  }
+  @media (max-width: 566px){
+    width: 100%;
   }
 `;
 export const GreenAndWindowImage = styled.div`
@@ -24,6 +32,9 @@ export const GreenAndWindowImage = styled.div`
    img{
      width: 100%;
      display: block;
+   }
+   @media (max-width: 566px){
+    max-width: 100%;
    }
 `;
 export const GreenWindowTextContainer = styled.div`
@@ -95,6 +106,13 @@ export const Hdiv = styled.div`
         margin-bottom: 0;
       }
     }
+    @media (max-width: 424px){
+      h1{
+        font-size: 1.7rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
 `;
 export const Pdiv = styled.div`
   margin-left: 1em;
@@ -137,6 +155,10 @@ export const Pdiv = styled.div`
   @media (max-width: 593px){
     font-size: .8rem;
   }
+  @media (max-width: 424px){
+    font-size: 1.7rem;
+    margin-bottom: 2em;
+  }
 `;
 export const ButtonDiv = styled.div`
   width: 15em;
@@ -163,6 +185,10 @@ export const ButtonDiv = styled.div`
     width: 12em;
     margin-bottom:0;
   }
+  @media (max-width: 424px){
+    margin:1em auto;
+    width: 15em;
+  }
 `;
 export const ButtonText = styled.div`
   margin: .2em .1em;
@@ -175,5 +201,8 @@ export const ButtonText = styled.div`
   }
   @media (max-width: 654px){
     font-size: .8rem;
+  }
+  @media (max-width: 424px){
+    font-size: 1.8rem;
   }
 `;
