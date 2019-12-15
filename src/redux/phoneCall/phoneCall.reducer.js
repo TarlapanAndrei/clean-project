@@ -1,6 +1,6 @@
 import phoneCallActionTypes from './phoneCall.types';
 const INITIAL_STATE = {
-  phoneStatus: true
+  phoneStatus: false
 }
 const phoneCallReducer = (state=INITIAL_STATE, action) =>{
   switch(action.type){

@@ -7,7 +7,7 @@ export const PhoneDropDownContainer = styled.div`
   padding:20px;
   border: none;
   background-color:none;
-  bottom: 300px;
+  bottom: 200px;
   right: auto;
   z-index: 5;
   display: flex;
