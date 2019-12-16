@@ -14,7 +14,6 @@ export const HeaderContainer = styled.div`
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
 
   @media screen and (max-width: 800px){
     font-size: 20px;
