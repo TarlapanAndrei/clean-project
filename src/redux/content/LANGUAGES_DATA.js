@@ -10,6 +10,9 @@ const roRuContent = {
       serviceText1: "Стандартная чистка ковров и паласов включает в себя доставку ковров, обработку индустриальными пылесосами, химчистку.",
       serviceText2: "Для быстрой и безопасной мойки фасадов из стекла, албонда, пластика, натурального и искусственного камня мы применяем новейшую технологию компании LEWI.",
       serviceText3: "Чистка мягкой мебели производится по технологий DriMaster. При этом материал остается лишь слегка влажним, идеально чиститься и очень быстро высыхает.",
+      serviceText4: "Чистка твердых полов производиться оборудованием Turbo Force International.Многолетняя грязь, скопившаяся в порах и межплиточных швах, будет удалена полностью!",
+      serviceText5: "Технология чистки ковролинов Xerion Solutions продлевает жизнь ковровых покрытий и положительно влияет на качество воздуха в помещении.",
+      serviceText6: "Мы осуществляем професиональную уборку офисов, торговых залов, производственных помещений, театров, ресторанов, квартир и других объектов."
     },
     WindowWash:{
       windowText1:"Узнай о нас больше",
@@ -40,7 +43,7 @@ const roRuContent = {
   romanian:{
     homePage: {
       slogan:"Suntem cei mai tari la capitolul 'Curatenie'!",
-      homeTextUnderSlogan:"Va aflati in cautarea celei mai bune companii in ceea ce tine de curatenie? Suntem la dispozitia dumneavoastra. E de ajuns sa apasati butonul de mai jos",
+      homeTextUnderSlogan:"Cautati o companie de cleaning sigura, care sa presteze servicii calitative? Compania noastra va ofera un spectru larg de servicii pentru mentinerea curatenie.",
       buttonCollUsText:"Contactati-ne",
     },
     OurServicesPage: {
@@ -48,6 +51,9 @@ const roRuContent = {
       serviceText1: " Curatarea covoarelor. Include transportul la domiciliu, prelucrarea cu aspiratoare intustriale si curatarea chimica",
       serviceText2: "Pentru curatatul rapid si sigur ale suprafetelor din sticla, albond, plastic, piatra naturala si artificiala folosim cele mai noi tehnologii ale companiei LEWI.",
       serviceText3: "Pentru curatarea mobilierului tapitat folosim tehnologiile DriMaster. Mobila ramine aproape uscata, ideal de curata si rapid se usuca complet.",
+      serviceText4: "Curatarea podelelor dure se efectuiaza cu aparatele Turbo Force International. Murdaria multianuala adunata in pori si in spatiul dintre teracota va fi inlaturata in intregime.",
+      serviceText5: "Tehnologia Xerion Solutions, folosita in curatarea mochetei, mareste durata de utilizare a mochetei si actioneaza favorabil la calitatea aierului din incapere.",
+      serviceText6: "Efectuam curatare profesionala de birouri, spatii comerciale, spatii industriale, teatre, restaurante, apartamente si alte locatii."
     },
     WindowWash:{
       windowText1:"Afla mai multe despre noi",
