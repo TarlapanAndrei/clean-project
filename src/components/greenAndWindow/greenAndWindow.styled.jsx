@@ -14,6 +14,15 @@ export const GreenAndWindowContainer = styled.div`
      flex-direction: column;
      align-items: center;
    }
+   @media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait) {
+      max-width: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
 `;
 export const GreenAndWindowSquare = styled.div`
   display: block;
@@ -23,6 +32,14 @@ export const GreenAndWindowSquare = styled.div`
   @media (max-width: 566px){
     width: 100%;
   }
+  @media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait) {
+      display: block;
+      width: 100%;
+      background-color: rgba(26, 95, 57, 1.0);
+    }
 `;
 export const GreenAndWindowImage = styled.div`
   max-width: 50%;

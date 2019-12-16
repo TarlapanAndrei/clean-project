@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { createStructuredSelector } from 'reselect';
 import {Route, Switch} from 'react-router-dom';
 import Homepage from './pages/homePage/Homepage.component';
 

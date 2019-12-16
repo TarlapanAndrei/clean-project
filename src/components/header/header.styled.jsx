@@ -17,6 +17,22 @@ export const HeaderContainer = styled.div`
     font-size: 20px;
     border-bottom:1px solid #31945C;
   }
+  @media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait) {
+      background-color: rgba(26, 95, 57, 0.5);
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+    }
+
   @media screen and (max-width: 550px){
     font-size: 13px;
     height: 70px;
