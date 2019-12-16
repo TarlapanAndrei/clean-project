@@ -9,7 +9,7 @@ const roRuContent = {
       header: "Наши Услуги",
       serviceText1: "Стандартная чистка ковров и паласов включает в себя доставку ковров, обработку индустриальными пылесосами, химчистку.",
       serviceText2: "Для быстрой и безопасной мойки фасадов из стекла, албонда, пластика, натурального и искусственного камня мы применяем новейшую технологию компании LEWI.",
-      serviceText3: "Чистка мягкой мебели производиться по технологий DriMaster. При этом материал остается лишь слегка влажним, идеально чиститься и очень быстро высыхает.",
+      serviceText3: "Чистка мягкой мебели производится по технологий DriMaster. При этом материал остается лишь слегка влажним, идеально чиститься и очень быстро высыхает.",
     },
     WindowWash:{
       windowText1:"Узнай о нас больше",
@@ -32,6 +32,9 @@ const roRuContent = {
       ComTitle4: "Супер-Персонал",
       ComMessage4: "Пунктуальные, опрятные, работают качественно и очень вежливые.",
       ComName4: "Виктория"
+    },
+    FinalP:{
+      address: "г.Кишинев, ул.Петрарилор,2"
     }
   },
   romanian:{
@@ -67,6 +70,9 @@ const roRuContent = {
       ComTitle4: "Ma bucur ca v-am gasit",
       ComMessage4: "In sfirsit nu mai avem probleme de curatenie, intruna punctuali si gentili.",
       ComName4: "Ion"
+    },
+    FinalP:{
+      address: "mun.Chisinau, str.Petrarilor 2"
     }
   }
 }

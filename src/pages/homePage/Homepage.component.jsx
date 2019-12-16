@@ -13,8 +13,9 @@ import WindowWashing from '../../components/windowWashing/WindowWashing';
 import PhoneCall from '../../components/phoneCall/phoneCall.component';
 import { selectStatus } from '../../redux/phoneCall/phoneCall.selectors';
 import CustomerComments from '../../components/comments/CustomerComments.component';
+import FinalPage from '../../components/final-page/FinalPage.component';
 const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
-  const  {homePage, OurServicesPage, WindowWash, Comments}  = selectAllContent[selectLanguage]
+  const  {homePage, OurServicesPage, WindowWash, Comments, FinalP}  = selectAllContent[selectLanguage]
   return(
   <HomepageContainer>
     <GreenAndWindow homePage={homePage}/>
@@ -24,6 +25,7 @@ const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
     { selectStatus?
       (<PhoneCall />): null }
     <CustomerComments Comments={Comments} />
+    <FinalPage FinalP={FinalP} />
   </HomepageContainer>
 )}
 const mapStateToProps = createStructuredSelector({

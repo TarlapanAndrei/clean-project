@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const SingleMessageContainer = styled.div`
    background-color: #FFFDF6;
    width: 100%;
+   border: 1px solid #F0EEE8;
 `;
 
 export const StarDiv = styled.div`
