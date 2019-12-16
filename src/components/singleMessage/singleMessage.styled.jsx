@@ -3,9 +3,6 @@ import styled from 'styled-components';
 export const SingleMessageContainer = styled.div`
    background-color: #FFFDF6;
    width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
 `;
 
 export const StarDiv = styled.div`

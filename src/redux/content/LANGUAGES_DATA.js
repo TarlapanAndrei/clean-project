@@ -62,10 +62,10 @@ const roRuContent = {
       ComMessage2: "Toate lucrarile au fost facute in termenii stabiliti, lucratori gentili.",
       ComName2: "Maria",
       ComTitle3: "Surprinsa",
-      ComMessage3: "In sfirsit mi-ati aratat cu e cind oficiul straluceste de curatenie, mersi.",
+      ComMessage3: "In sfirsit mi-ati aratat cum e cind oficiul straluceste de curatenie, mersi.",
       ComName3: "Ana",
       ComTitle4: "Ma bucur ca v-am gasit",
-      ComMessage4: "In sfirsit nu mai avem probleme de curatenie, intruna puncuali si gentili.",
+      ComMessage4: "In sfirsit nu mai avem probleme de curatenie, intruna punctuali si gentili.",
       ComName4: "Ion"
     }
   }

@@ -11,11 +11,12 @@ export const CommentBlock = styled.div`
   max-width: 100%;
   max-height: 100%;
   display: grid;
+  margin-top: 0;
   grid-template-columns: 23% 23% 23% 23%;
   column-gap: 2.64%;
   @media (max-width: 800px){
     grid-template-columns: 46% 46%;
-    column-gap: 8%;
+    column-gap: 7%;
   }
   @media (max-width: 500px){
     grid-template-columns: 90%;
