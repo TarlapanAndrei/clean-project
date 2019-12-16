@@ -18,6 +18,20 @@ const roRuContent = {
       personelCount: "специалистов по клинингу",
       tehnologi: "международных клининговых технологий",
       customerPercent: "удовлетворенных клиентов"
+    },
+    Comments:{
+      ComTitle1: "Безупречный сервис",
+      ComMessage1: "Фантастический сервис! По-настоящему осталась довольна общением.",
+      ComName1: "Елена",
+      ComTitle2: "Гибкий график",
+      ComMessage2: "Мы очень ценим что компания подстраивается под график работы своих клиентов.",
+      ComName2: "Александр",
+      ComTitle3: "Отличное качество",
+      ComMessage3: "Хорошее качество услуг и быстрый результат. После вас всегда чисто и приятно.",
+      ComName3: "Ольга",
+      ComTitle4: "Супер-Персонал",
+      ComMessage4: "Пунктуальные, опрятные, работают качественно и очень вежливые.",
+      ComName4: "Виктория"
     }
   },
   romanian:{
@@ -39,6 +53,20 @@ const roRuContent = {
       personelCount: "specialisti in cleaning",
       tehnologi: "tehnologii mondiale pentru curatat",
       customerPercent: "clienti care au ramas multumiti"
+    },
+    Comments:{
+      ComTitle1: "Serviciu de 5 stele",
+      ComMessage1: "Am ramas placut surprins de viteza si calitatea serviciilor.",
+      ComName1: "Andrei",
+      ComTitle2: "Cei mai punctuali",
+      ComMessage2: "Toate lucrarile au fost facute in termenii stabiliti, lucratori gentili.",
+      ComName2: "Maria",
+      ComTitle3: "Surprinsa",
+      ComMessage3: "In sfirsit mi-ati aratat cu e cind oficiul straluceste de curatenie, mersi.",
+      ComName3: "Ana",
+      ComTitle4: "Ma bucur ca v-am gasit",
+      ComMessage4: "In sfirsit nu mai avem probleme de curatenie, intruna puncuali si gentili.",
+      ComName4: "Ion"
     }
   }
 }
