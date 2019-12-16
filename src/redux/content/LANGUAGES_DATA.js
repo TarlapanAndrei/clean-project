@@ -34,7 +34,7 @@ const roRuContent = {
       ComName4: "Виктория"
     },
     FinalP:{
-      address: "г.Кишинев, ул.Петрарилор,2"
+      address: "г.Дурлешть ул.Ренаштерий11"
     }
   },
   romanian:{
@@ -72,7 +72,7 @@ const roRuContent = {
       ComName4: "Ion"
     },
     FinalP:{
-      address: "mun.Chisinau, str.Petrarilor 2"
+      address: "or.Durlesti, str.Renasterii 11"
     }
   }
 }
