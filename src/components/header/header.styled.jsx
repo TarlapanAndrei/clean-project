@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+
 
 export const HeaderContainer = styled.div`
   background-color: rgba(26, 95, 57, 0.5);
@@ -35,28 +35,35 @@ export const HeaderLogoDiv = styled.div`
   width: 30%;
   height: 100%;
   display:flex;
-  justify-content: start;
+  justify-content:center;
   align-items: center;
-  padding: 0 40px;
-  @media screen and (max-width: 600px){
-    width: 40%;
-    font-size: 14px;
-    padding: 5px 5px;
-    margin-top: 3px;
+   img{
+     width: 56%;
+   }
+   @media screen and (max-width: 1024px){
+    img{
+      width: 80%;
+    }
+   }
+  @media screen and (max-width: 990px){
+    img{
+      width: 80%;
+    }
   }
-  @media screen and (max-width: 900px){
-    justify-content: flex-start;
-    width: 40%;
-    padding-left: 20px;
+  @media screen and (max-width: 731px){
+    img{
+      width: 88%;
+    }
   }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
-    height: 70px;
-    font-size: 17px;
+  @media screen and (max-width: 640px){
+    img{
+      width: 90%;
+    }
   }
-  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
-    justify-content: flex-start;
-    width: 40%;
-    padding-left: 15px;
+   @media screen and (max-width: 414px){
+    img{
+      width: 96%;
+    }
   }
 `;
 export const HeaderPhoneDiv = styled.div`
@@ -84,8 +91,8 @@ export const HeaderLanguageChange = styled.div`
   @media screen and (max-width: 900px){
     padding-right: 10px;
   }
-  @media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio:2){
-    padding-right: 15px;
+  @media screen and (max-width: 414px){
+    width: 10%;
   }
   @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:2){
     padding-right: 5px;
@@ -103,6 +110,7 @@ export const LitleScreenPhone = styled.div`
 `;
 export const LitleScomeEveryPhone = styled.div`
    padding: 5px 0;
+   font-size: 15px;
    @media screen and (max-width: 411px) and (-webkit-min-device-pixel-ratio:2){
      font-size: 15px;
    }

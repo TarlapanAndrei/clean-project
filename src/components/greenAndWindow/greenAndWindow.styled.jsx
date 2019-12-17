@@ -91,27 +91,28 @@ export const Hdiv = styled.div`
       }
     }
     @media (max-width: 859px){
+      margin-top: 2.7em;
       h1{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
     }
     @media (max-width: 780px){
       h1{
         margin-bottom: .1em;
         font-size: 1.1rem;
-        margin-top: 1.5em;
+        margin-top: 2em;
       }
     }
     @media (max-width: 764px){
       h1{
         font-size: 1rem;
-        margin-top: 1.2em;
+        margin-top: 2em;
       }
     }
     @media (max-width: 654px){
       h1{
         font-size: .9rem;
-        margin-top: 1em;
+        margin-top: 1.5em;
         margin-bottom: 0;
       }
     }
@@ -156,7 +157,7 @@ export const Pdiv = styled.div`
     font-size: 1.1rem;
   }
   @media (max-width: 764px){
-    font-size: 1rem;
+    font-size: 0.93rem;
   }
   @media (max-width: 622px){
     font-size: .9rem;

@@ -5,13 +5,14 @@ import { selectLanguage } from '../../redux/content/content.selectors';
 import { changeLangToRu, changeLangToRo } from '../../redux/content/content.actions';
 import ro from '../../assets/ro.png';
 import ru from '../../assets/ru.png';
+import Logo from '../../assets/Logo.png'
 
 import { HeaderContainer, HeaderLogoDiv, HeaderPhoneDiv, HeaderLanguageChange, HeaderPhoneDivMedia, LitleScreenPhone, LitleScomeEveryPhone } from './header.styled';
 
 const Header = ({selectLanguage, changeLangToRu, changeLangToRo}) =>(
   <HeaderContainer>
     <HeaderLogoDiv>
-      Furmetexlogo
+      <img src={Logo} alt="logo"/>
     </HeaderLogoDiv>
     <HeaderPhoneDiv>
       +373(22)288 611
