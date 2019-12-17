@@ -10,7 +10,7 @@ import { OurServicesContainer, HeaderDiv, HeaderText, HeaderUnderLine, ServicesC
 import ServiceElement from '../../components/service-element/serviceElement';
 
 const OurServices = ({OurServicesPage}) =>{
-  const { header, serviceText1, serviceText2, serviceText3, serviceText4, serviceText5, serviceText6} = OurServicesPage
+  const { header, serviceText1, serviceText1Comlete, serviceText2, serviceText2Comlete, serviceText3, serviceText3Comlete, serviceText4, serviceText4Comlete, serviceText5, serviceText5Comlete, serviceText6, serviceText6Comlete} = OurServicesPage
   return(
   <OurServicesContainer>
     <HeaderDiv>
@@ -21,12 +21,12 @@ const OurServices = ({OurServicesPage}) =>{
       </HeaderUnderLine>
     </HeaderDiv>
     <ServicesContainer>
-      <ServiceElement image={ServiceAdidas400} text={serviceText1}/>
-      <ServiceElement image={ServiceTeu380} text={serviceText2}/>
-      <ServiceElement image={ServiceBead380} text={serviceText3}/>
-      <ServiceElement image={Covrolin380} text={serviceText5}/>
-      <ServiceElement image={Ofice380} text={serviceText6}/>
-      <ServiceElement image={hardFloor380} text={serviceText4}/>
+      <ServiceElement image={ServiceAdidas400} text={serviceText1} fullText={serviceText1Comlete}/>
+      <ServiceElement image={ServiceTeu380} text={serviceText2} fullText={serviceText2Comlete}/>
+      <ServiceElement image={ServiceBead380} text={serviceText3} fullText={serviceText3Comlete}/>
+       <ServiceElement image={hardFloor380} text={serviceText4} fullText={serviceText4Comlete}/>
+      <ServiceElement image={Covrolin380} text={serviceText5} fullText={serviceText5Comlete}/>
+      <ServiceElement image={Ofice380} text={serviceText6} fullText={serviceText6Comlete}/>
     </ServicesContainer>
   </OurServicesContainer>
 )}

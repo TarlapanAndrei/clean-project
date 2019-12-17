@@ -22,14 +22,8 @@ export const TextDiv = styled.div`
   p{
     font-size: 1.8rem;
   }
-  @media (max-width: 1300px){
-    p{font-size: 1.6rem;
-  }
-  @media (max-width: 1200px){
-    p{font-size: 1.4rem;
-  }
-  @media (max-width: 1050px){
-    p{font-size: 1.2rem;
+  span{
+    font-size: 1.2rem;
   }
   
 `;

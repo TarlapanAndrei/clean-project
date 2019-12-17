@@ -39,6 +39,7 @@ export const HeaderLogoDiv = styled.div`
   align-items: center;
    img{
      width: 56%;
+     border: 2px solid white;
    }
    @media screen and (max-width: 1024px){
     img{
