@@ -14,6 +14,7 @@ import PhoneCall from '../../components/phoneCall/phoneCall.component';
 import { selectStatus } from '../../redux/phoneCall/phoneCall.selectors';
 import CustomerComments from '../../components/comments/CustomerComments.component';
 import FinalPage from '../../components/final-page/FinalPage.component';
+import OnMap from '../../components/onMap/onMap.component';
 const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
   const  {homePage, OurServicesPage, WindowWash, Comments, FinalP}  = selectAllContent[selectLanguage]
   return(
@@ -26,6 +27,7 @@ const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
       (<PhoneCall />): null }
     <CustomerComments Comments={Comments} />
     <FinalPage FinalP={FinalP} />
+    <OnMap />
   </HomepageContainer>
 )}
 const mapStateToProps = createStructuredSelector({
