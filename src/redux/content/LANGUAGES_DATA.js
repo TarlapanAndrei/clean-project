@@ -38,6 +38,11 @@ const roRuContent = {
     },
     FinalP:{
       address: "г.Дурлешть ул.Ренаштерий11"
+    },
+    ContactsPage:{
+      intro: "Furmetex - одна из лучших в Кишиневе фирм занимающихся уборкой помещений. Мы работаем с целым рядом престижных клиентов - частных, государственных и корпоративных - для предоставления ведущих в отрасли услуг по уборке по всей столице. Мы можем предложить индивидуальные услуги по уборке на любой вкус, независимо от того, насколько они необычны.",
+      divOurAddress: "Наш адрес : ",
+      weOnMap: "Мы на карте "
     }
   },
   romanian:{
@@ -79,6 +84,11 @@ const roRuContent = {
     },
     FinalP:{
       address: "or.Durlesti, str.Renasterii 11"
+    },
+    ContactsPage:{
+      intro: "Furmetex este una dintre cele mai bune companii de curățenie din Chișinău. Lucrăm cu o serie de clienți prestigioși - privați, publici și corporativi - pentru a oferi cele mai moderne servicii de curățare în industrie. Putem oferi servicii de curățare individuale pentru fiecare gust, indiferent de cât de neobișnuite sunt.",
+      divOurAddress: "Adresa noastra : ",
+      weOnMap: "Ne aflam aici "
     }
   }
 }

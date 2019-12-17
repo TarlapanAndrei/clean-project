@@ -14,7 +14,7 @@ export const PhoneDropDownContainer = styled.div`
   padding: 5px;
   justify-content: space-between;
   display: none;
-  @media (max-width:924px){
+  @media (max-width:1024px){
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

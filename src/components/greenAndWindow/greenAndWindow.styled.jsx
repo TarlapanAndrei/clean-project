@@ -1,10 +1,5 @@
 import styled from 'styled-components';
-import homePageMain from '../../assets/homePageMain.jpg';
-import homePageMain700 from '../../assets/homePageMain700.jpg';
-import homePageMainWith400 from '../../assets/homePageMainWith400.jpg';
-import homePageMainWith500 from '../../assets/homePageMainWith500.jpg';
-
-
+import { Link } from 'react-router-dom'
 
 export const GreenAndWindowContainer = styled.div`
    display: flex;
@@ -174,7 +169,7 @@ export const Pdiv = styled.div`
     margin-bottom: 2em;
   }
 `;
-export const ButtonDiv = styled.div`
+export const ButtonDiv = styled(Link)`
   width: 15em;
   margin-left: 2em;
   margin-top: 1em;
@@ -182,8 +177,50 @@ export const ButtonDiv = styled.div`
   border: 0.2rem solid white;
   border-radius: .5rem;
   padding: .3em;
+  cursor: pointer;
+  & :hover{
+   color: #5CD9EA;
+  }
   @media (max-width: 1470px){
     margin-bottom:2.5em;
+  }
+  @media (max-width: 1025px){
+    display: none
+  }
+
+`;
+export const ButtonText = styled.div`
+  margin: .2em .1em;
+  font-size: 1.5rem;
+  @media (max-width: 1052px){
+    font-size: 1.2rem;
+  }
+  @media (max-width: 815px){
+    font-size: 1.1rem;
+  }
+  @media (max-width: 654px){
+    font-size: .8rem;
+  }
+  @media (max-width: 424px){
+    font-size: 1.8rem;
+  }
+`;
+export const ButtonDivmobile = styled.div`
+  width: 15em;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom:3em;
+  border: 0.2rem solid white;
+  border-radius: .5rem;
+  padding: .3em;
+  cursor: pointer;
+  display: none;
+  & :hover{
+   color: #5CD9EA;
+  }
+  @media (max-width: 1024px){
+    margin-bottom:2em;
+    display: block
   }
   @media (max-width: 815px){
     margin-bottom:2em;
@@ -202,21 +239,5 @@ export const ButtonDiv = styled.div`
   @media (max-width: 424px){
     margin:1em auto;
     width: 15em;
-  }
-`;
-export const ButtonText = styled.div`
-  margin: .2em .1em;
-  font-size: 1.5rem;
-  @media (max-width: 1052px){
-    font-size: 1.2rem;
-  }
-  @media (max-width: 815px){
-    font-size: 1.1rem;
-  }
-  @media (max-width: 654px){
-    font-size: .8rem;
-  }
-  @media (max-width: 424px){
-    font-size: 1.8rem;
   }
 `;
