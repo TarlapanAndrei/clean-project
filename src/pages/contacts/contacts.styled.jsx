@@ -40,6 +40,10 @@ export const DivStart = styled.div`
   p{
     font-size: 1.4rem;
   }
+  img{
+    margin-left: 1.2em;
+    margin-top: .5em;
+  }
 `;
 export const DivForPictures = styled.div`
   width: 90%;
@@ -50,6 +54,6 @@ export const DivForPictures = styled.div`
     tex-align: center;
   }
   img{
-    width: 90%;
+    width: 100%;
   }
 `;

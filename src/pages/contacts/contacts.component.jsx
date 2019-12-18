@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { selectAllContent, selectLanguage} from '../../redux/content/content.selectors';
-import MapPix from '../../assets/harta.png';
+import MapPix from '../../assets/harta.jpg';
+import Facebook7 from '../../assets/facebook7.png'; 
 
 import {ContactsContainer, ContactsHeaderContainer, ContactsHeader, Home, DivForHome, DivStart, DivForPictures} from './contacts.styled';
 
@@ -30,6 +31,9 @@ const Contacts = ({selectAllContent, selectLanguage}) =>{
   </DivStart>
   <DivStart>
     <p>e-mail: furmetex@curat.md</p>
+  </DivStart>
+  <DivStart>
+    <p>Facebook :<a href="https://www.facebook.com/profile.php?id=100015586867540"><img src={Facebook7} alt="facebook"/></a></p>
   </DivStart>
   <DivForPictures>
    <p>{weOnMap}</p>
