@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const WeWorkWithContainerGeneral = styled.div`
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+`;
+
 export const WeWorkWithContainer = styled.div`
   display:flex;
   flex-wrap: wrap;
@@ -31,6 +38,20 @@ max-width: 100%;
     max-width:360px;
     img{
       height: 70%;
+    }
+  }
+`;
+export const WeWorckWithHeader = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  h3{
+    font-size: 3rem;
+  }
+  @media (max-width: 500px){
+    h3{
+      font-size: 2rem;
     }
   }
 `;

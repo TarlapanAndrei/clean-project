@@ -10,8 +10,12 @@ import Agentia from '../../assets/friends/Agentia.jpg';
 import Beneton from '../../assets/friends/Beneton.jpg';
 import Ambasada from '../../assets/friends/Ambasada.jpg';
 import Gipfel from '../../assets/friends/Gipfel.jpg';
-import { WeWorkWithContainer, EveryFrienDiv } from './weWorkWith.styled';
-const WeWorkWith = () =>(
+import { WeWorkWithContainer, EveryFrienDiv, WeWorkWithContainerGeneral, WeWorckWithHeader } from './weWorkWith.styled';
+const WeWorkWith = ({Partners:{PartnersHeader}}) =>(
+  <WeWorkWithContainerGeneral>
+    <WeWorckWithHeader>
+      <h3>{PartnersHeader}</h3>
+    </WeWorckWithHeader>
   <WeWorkWithContainer>
     <EveryFrienDiv>
        <img src={MoldTelecom} alt="moldTelecom" title="MOLDTELECOM" />
@@ -47,5 +51,6 @@ const WeWorkWith = () =>(
       <img src={Gipfel} alt="Gipfel" title="Gipfel SRL" />
     </EveryFrienDiv>
   </WeWorkWithContainer>
+  </WeWorkWithContainerGeneral>
 )
 export default WeWorkWith;

@@ -17,7 +17,7 @@ import FinalPage from '../../components/final-page/FinalPage.component';
 import OnMap from '../../components/onMap/onMap.component';
 import WeWorkWith from '../../components/weWorkWith/weWorkWith.component';
 const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
-  const  {homePage, OurServicesPage, WindowWash, Comments, FinalP}  = selectAllContent[selectLanguage]
+  const  {homePage, OurServicesPage, WindowWash, Comments, FinalP, Partners}  = selectAllContent[selectLanguage]
   return(
   <HomepageContainer>
     <GreenAndWindow homePage={homePage}/>
@@ -27,7 +27,7 @@ const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
     { selectStatus?
       (<PhoneCall />): null }
     <CustomerComments Comments={Comments} />
-    <WeWorkWith />
+    <WeWorkWith Partners={Partners}/>
     <FinalPage FinalP={FinalP} />
     <OnMap />
   </HomepageContainer>
