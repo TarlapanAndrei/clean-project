@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 export const EveryServiceContainer = styled.div`
   width: 90%;
@@ -21,9 +22,9 @@ export const TextDiv = styled.div`
   padding-right: 0.5em;
   p{
     font-size: 1.8rem;
+    color: black;
   }
   span{
     font-size: 1.2rem;
   }
-  
 `;
