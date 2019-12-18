@@ -15,6 +15,7 @@ import { selectStatus } from '../../redux/phoneCall/phoneCall.selectors';
 import CustomerComments from '../../components/comments/CustomerComments.component';
 import FinalPage from '../../components/final-page/FinalPage.component';
 import OnMap from '../../components/onMap/onMap.component';
+import WeWorkWith from '../../components/weWorkWith/weWorkWith.component';
 const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
   const  {homePage, OurServicesPage, WindowWash, Comments, FinalP}  = selectAllContent[selectLanguage]
   return(
@@ -26,6 +27,7 @@ const Homepage = ({ selectAllContent, selectLanguage, selectStatus}) =>{
     { selectStatus?
       (<PhoneCall />): null }
     <CustomerComments Comments={Comments} />
+    <WeWorkWith />
     <FinalPage FinalP={FinalP} />
     <OnMap />
   </HomepageContainer>
