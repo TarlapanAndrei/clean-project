@@ -10,6 +10,7 @@ export const HeaderDiv = styled.div`
   width: 100%;
   height: 7em;
   display: flex;
+  margin-top: 1em;
   flex-direction: column;
   align-items: center;
   @media (max-width: 1000px){
