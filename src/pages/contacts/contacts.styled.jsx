@@ -13,7 +13,7 @@ export const ContactsHeaderContainer = styled.div`
   margin-bottom: 7em;
 `;
 export const ContactsHeader = styled.div`
-  width: 90%;
+  width: 75%;
   height: 100%;
   h3{
     color: #217A49;
