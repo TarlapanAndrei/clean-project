@@ -7,7 +7,7 @@ const SingleMessage = ({title, message, name}) =>{
   return(
   <SingleMessageContainer>
   <StarDiv>
-    <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+    <span role="img" aria-label='star'>&#11088;&#11088;&#11088;&#11088;&#11088;</span>
   </StarDiv>
   <TitleDiv>
   <h4>{title}</h4>

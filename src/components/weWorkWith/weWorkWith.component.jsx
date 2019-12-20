@@ -10,6 +10,9 @@ import Agentia from '../../assets/friends/Agentia.jpg';
 import Beneton from '../../assets/friends/Beneton.jpg';
 import Ambasada from '../../assets/friends/Ambasada.jpg';
 import Gipfel from '../../assets/friends/Gipfel.jpg';
+import Sweden from '../../assets/friends/Sweden.jpg';
+import Lunchevici from '../../assets/friends/Lunchevici.jpg';
+import Guvernul from '../../assets/friends/Guvernul.jpg';
 import { WeWorkWithContainer, EveryFrienDiv, WeWorkWithContainerGeneral, WeWorckWithHeader } from './weWorkWith.styled';
 const WeWorkWith = ({Partners:{PartnersHeader}}) =>(
   <WeWorkWithContainerGeneral>
@@ -17,6 +20,9 @@ const WeWorkWith = ({Partners:{PartnersHeader}}) =>(
       <h3>{PartnersHeader}</h3>
     </WeWorckWithHeader>
   <WeWorkWithContainer>
+    <EveryFrienDiv>
+      <img src={Guvernul} alt="Guvernul" title="GUVERNUL REPUBLICII MOLDOVA" />
+    </EveryFrienDiv>
     <EveryFrienDiv>
        <img src={MoldTelecom} alt="moldTelecom" title="MOLDTELECOM" />
     </EveryFrienDiv>
@@ -45,10 +51,16 @@ const WeWorkWith = ({Partners:{PartnersHeader}}) =>(
       <img src={Beneton} alt="Beneton" title="UNITED COLORS OF BENETTON" />
     </EveryFrienDiv>
     <EveryFrienDiv>
-      <img src={Ambasada} alt="Ambasada" title="Ambasada SUA" />
+      <img src={Ambasada} alt="Ambasada" title="UNITED STATES OF AMERICA EMBASSY" />
     </EveryFrienDiv>
     <EveryFrienDiv>
       <img src={Gipfel} alt="Gipfel" title="Gipfel SRL" />
+    </EveryFrienDiv>
+    <EveryFrienDiv>
+      <img src={Sweden} alt="Sweden" title="EMBASSY OF SWEDEN" />
+    </EveryFrienDiv>
+    <EveryFrienDiv>
+      <img src={Lunchevici} alt="Lunchevici" title='Filarmonica Nationala "Serghei Lunchevici"'  />
     </EveryFrienDiv>
   </WeWorkWithContainer>
   </WeWorkWithContainerGeneral>

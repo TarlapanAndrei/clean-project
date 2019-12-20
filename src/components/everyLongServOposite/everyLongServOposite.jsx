@@ -9,7 +9,7 @@ const EveryLongServiceOposite = ({image, header, paragraph}) =>(
        <p className="paragraph">{paragraph}</p>
     </TextDiv>
     <ImageDiv>
-      <img src={image} />
+      <img src={image} alt="imageservice" />
     </ImageDiv>
   </EveryLongServiceContainer>
 )
