@@ -6,7 +6,7 @@ const FinalPage = ({FinalP:{address}}) =>(
       <p className='sity'>{address}</p>
       <p>Tel: +373(22)288611</p>
       <p>Mob: +373(69)106651</p>
-      <p>e-mail: furmetex@curat.md</p>
+      <p>e-mail: f@furmetex-curat.md</p>
     </FinalPageContent>
   </FinalPageContainer>
 )

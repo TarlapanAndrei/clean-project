@@ -30,7 +30,7 @@ const Contacts = ({selectAllContent, selectLanguage}) =>{
     <p>Mob: +373(69)106651 </p>
   </DivStart>
   <DivStart>
-    <p>e-mail: furmetex@curat.md</p>
+    <p>e-mail: f@furmetex-curat.md</p>
   </DivStart>
   <DivStart>
     <p>Facebook :<a href="https://www.facebook.com/profile.php?id=100015586867540"><img src={Facebook7} alt="facebook"/></a></p>
